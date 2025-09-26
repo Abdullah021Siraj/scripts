@@ -10,8 +10,8 @@ logging.basicConfig(
 )
 
 # Endpoints to monitor
-VERCEL_URL = "https://url-shortener-nu-lilac.vercel.app"
-AWS_URL = "https://rcefn1q34m.execute-api.eu-central-1.amazonaws.com/prod"
+VERCEL_URL = "<vercel-domain-url>" # choose any platform 
+AWS_URL = "<apigateway-url>"
 
 def check_endpoint(name, url, expected_status=200):
     """Check if an endpoint is up and responding correctly."""
