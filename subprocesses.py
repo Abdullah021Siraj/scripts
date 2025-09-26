@@ -1,10 +1,10 @@
 import subprocess
 import sys
 
-CONTAINER_NAME = "portfolio"
-IMAGE_NAME = "portfolio:latest"
-HOST_PORT = 3000
-CONTAINER_PORT = 3000
+CONTAINER_NAME = "your-container-name"
+IMAGE_NAME = "container-name:tag"
+HOST_PORT = desired port
+CONTAINER_PORT = desired port
 
 def log(message):
     print(f"[{CONTAINER_NAME} Automation] {message}")
